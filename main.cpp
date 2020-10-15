@@ -12,8 +12,8 @@ using namespace cv;
 //Main program entry point
 int main(int argc, char** argv)
 {
-	const int resx = 140;
-	const int resy = 100;
+	const int resx = 140; //Number of columns to be printed
+	const int resy = 100; //Number of rows to be printed
 
 	//Initialize camera
 	AsciiCam ascii(resy,resx);
